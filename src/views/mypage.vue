@@ -142,12 +142,7 @@ const githubProjects = ref([
       'Management purchase expenditure record ,maintenance and write-off records in fixed assets at facilities',
       'Cloud-based web systems offer ease of use with no installation required, significantly reducing costs.'
     ],
-    images: [
-      '/felix9611/fixedasset/1.png',
-      '/felix9611/fixedasset/2.png',
-      '/felix9611/fixedasset/3.png',
-      '/felix9611/fixedasset/4.png'
-    ],
+    images: ['/fixedasset/1.png', '/fixedasset/2.png', '/fixedasset/3.png', '/fixedasset/4.png'],
     stackFlows: [
       {
         name: 'Frontend',
