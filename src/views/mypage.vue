@@ -208,57 +208,6 @@ const githubProjects = ref([
 
 const workExperiences = ref([
   {
-    jobTilte: 'Software Engineer',
-    company: 'Swivel Software Inc.',
-    location: 'Toronto, Ontario, Canada',
-    workRange: ['2023.04', ''],
-    jobHighlight: [
-      'Supply Chain system development',
-      'Data Analyze and Visualized',
-      'System Testing & User Manual',
-      'Technology Review and Research for customer requirement'
-    ],
-    skills: [
-      'VUE',
-      'Node.Js',
-      'NestJS',
-      'TailwindCSS',
-      'Html',
-      'CSS',
-      'Typescript',
-      'Javascript',
-      'MSSQL',
-      'MySQL',
-      'Data Analyze',
-      'Data Visualized'
-    ]
-  },
-  {
-    jobTilte: 'Software Engineer',
-    company: 'Swivel Software Limited',
-    location: 'Sha Tin, HK',
-    workRange: ['2021.04', '2023.03'],
-    jobHighlight: [
-      'Supply Chain system development',
-      'Data Analyze and Visualized',
-      'System Testing & User Manual',
-      'Technology Review and Research for customer requirement'
-    ],
-    skills: [
-      'VUE',
-      'Node.Js',
-      'NestJS',
-      'Html',
-      'CSS',
-      'Typescript',
-      'Javascript',
-      'MSSQL',
-      'MySQL',
-      'Data Analyze',
-      'Data Visualized'
-    ]
-  },
-  {
     jobTilte: 'Mobile Developer',
     company: 'Certizen Limited',
     location: '',
