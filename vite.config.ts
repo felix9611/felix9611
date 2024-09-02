@@ -21,7 +21,7 @@ export default defineConfig({
       usePolling: true
     }
   },
-  base: '/felixfiles/',
+  base: '/felix9611/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
