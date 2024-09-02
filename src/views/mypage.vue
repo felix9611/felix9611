@@ -142,7 +142,12 @@ const githubProjects = ref([
       'Management purchase expenditure record ,maintenance and write-off records in fixed assets at facilities',
       'Cloud-based web systems offer ease of use with no installation required, significantly reducing costs.'
     ],
-    images: ['/fixedasset-1.png', '/fixedasset-2.png', '/fixedasset-3.png', '/fixedasset-4.png'],
+    images: [
+      '/felix9611/fixedasset-1.png',
+      '/felix9611/fixedasset-2.png',
+      '/felix9611/fixedasset-3.png',
+      '/felix9611/fixedasset-4.png'
+    ],
     stackFlows: [
       {
         name: 'Frontend',
@@ -172,7 +177,12 @@ const githubProjects = ref([
       'Management purchase orders record ,transaction history, inventory and product records in POS at bussiness',
       'Cloud-based web systems offer ease of use with no installation required, significantly reducing costs.'
     ],
-    images: ['/pos-1.png', '/pos-2.png', '/pos-3.png', '/pos-4.png'],
+    images: [
+      '/felix9611/pos-1.png',
+      '/felix9611/pos-2.png',
+      '/felix9611/pos-3.png',
+      '/felix9611/pos-4.png'
+    ],
     stackFlows: [
       {
         name: 'Frontend',
