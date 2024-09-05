@@ -13,15 +13,15 @@
         </div>
       </div>
     </div>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 py-2">
-      <div class="order-2 sm:py-[2rem] m:order-2 sm:order-2 md:order-1 lg:order-1 px-[8rem]">
-        <img class="lg:col-sapn-1 rounded-lg scale-80" :src="mySelf.photo" />
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-2">
+      <div class="order-2 sm:py-[2rem] m:order-2 sm:order-2 md:order-1 lg:order-1 px-[3rem]">
+        <img class="lg:col-sapn-1 rounded-lg scale-100" :src="mySelf.photo" />
         <div class="text-white text-center text-[0.8rem] py-2">
           {{ mySelf.photoInfo }}
         </div>
       </div>
       <div
-        class="sm:order-1 lg:order-2 md:col-sapn-1 lg:col-sapn-2 px-10 w-full grid grid-cols-1 lg:w-full"
+        class="sm:order-1 lg:order-2 md:col-sapn-1 lg:col-sapn-2 xl:col-sapn-3 px-10 w-full grid grid-cols-1 lg:w-full"
       >
         <div
           class="whitespace-nowrap text-[2rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_rgb(99_102_241_/_0.8)]"
@@ -38,7 +38,7 @@
         <div class="w-full">
           <div v-for="item in mySelf.skills.items">
             <span class="text-white text-[1.2rem]">{{ item.name }}</span>
-            <div class="flex flex-wrap lg:flex-nowrap gap-3 py-2 w-full">
+            <div class="flex flex-wrap md:flex-wrap lg:flex-wrap xl:flex-nowrap gap-3 py-2 w-full">
               <div v-for="(row, index) in item.list">
                 <div
                   :class="`hover:bg-opacity-50 bg-[#d5d5d5] bg-opacity-30 px-2 py-1 rounded-lg text-white whitespace-nowrap`"
