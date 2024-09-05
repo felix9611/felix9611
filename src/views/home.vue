@@ -1,7 +1,7 @@
 <template>
-  <div class="grid xl:grid-cols-5 px-[5rem] lg:px-[8rem] py-[9rem]">
-    <div class="flex justify-center items-center">
-      <img class="lg:col-sapn-1 rounded-xl scale-150" :src="mySelfHere.photo1" />
+  <div class="grid grid-cols-1 xl:grid-cols-5 gap-2 px-[5rem] lg:px-[4rem] py-[4rem]">
+    <div class="">
+      <img class="lg:col-sapn-1 rounded-xl" :src="mySelfHere.photo1" />
     </div>
     <div class="h-sceen xl:col-span-3">
       <div
@@ -20,8 +20,12 @@
         I'm in there
       </div>
     </div>
-    <div class="flex justify-center items-center">
-      <img class="lg:col-sapn-1 rounded-xl scale-150" :src="mySelfHere.photo2" />
+    <div class="xl:col-span-1">
+      <img class="lg:col-sapn-1 rounded-xl" :src="mySelfHere.photo2" />
+    </div>
+    <div class="xl:col-span-full text-center text-white py-[2rem] text-[1.1rem]">
+      <div>Copy Rights by {{ footerData.name }} @ {{ footerData.year }}</div>
+      <div>{{ footerData.email }}</div>
     </div>
   </div>
 </template>
@@ -33,10 +37,17 @@ const mySelfHere = ref({
   photo2: '/felix9611/maruzensky-2.jpg'
 })
 
+const footerData = ref({
+  name: 'Felix Mak',
+  email: 'felix9611.ca@gmail.com',
+  year: new Date().getFullYear()
+})
+
 export default defineComponent({
   setup() {
     return {
-      mySelfHere
+      mySelfHere,
+      footerData
     }
   }
 })
