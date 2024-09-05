@@ -1,18 +1,19 @@
 <template>
   <div class="">
     <div class="lg:px-[10rem] px-[3rem] md:px-[3rem] grid lg:grid-cols-1 gap-6">
-      <div class="hover:bg-opacity-45 bg-white bg-opacity-25 rounded-xl shadow-lg p-3">
-        <div class="text-center text-[1.2rem] text[#676767]">
-          My journey never stops. I keep moving forward and embracing new milestones. Life doesn’t
-          have fixed answers—we should never stop searching for our own. Without trying, we won't
-          discover new directions.
-        </div>
+      <div
+        class="lg:px-[10rem] text-center text-[1rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+      >
+        My journey never stops. I keep moving forward and embracing new milestones. Life doesn’t
+        have fixed answers—we should never stop searching for our own. Without trying, we won't
+        discover new directions.
       </div>
-      <div class="hover:bg-opacity-45 bg-white bg-opacity-25 rounded-xl shadow-lg p-3">
-        <div class="text-center text-[1.6rem] text[#676767]">
-          Trying new things brings challenges and stimulates growth, offering valuable new
-          experiences for myself.
-        </div>
+
+      <div
+        class="text-center text-[1rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+      >
+        Trying new things brings challenges and stimulates growth, offering valuable new experiences
+        for myself.
       </div>
 
       <!--<div class="text-center text-white p-2 text-[2rem] font-bold">My work experiences</div>
@@ -54,7 +55,11 @@
           </div>
         </div>
       </div>-->
-      <div class="text-center text-white p-2 text-[2rem] font-bold">My Project in Github</div>
+      <div
+        class="text-center text-[3rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+      >
+        My Project in Github
+      </div>
 
       <div class="grid lg:grid-cols-2 gap-3 h-full">
         <div v-for="project in githubProjects">
