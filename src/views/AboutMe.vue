@@ -86,7 +86,7 @@ const mySelf = ref({
       {
         name: 'Frontend Framework',
         colorHighlight: 'd4e9ff',
-        list: ['Vue.js', 'Tailwind CSS', 'Vite']
+        list: ['Vue.js', 'Tailwind CSS', 'Vite', 'Chart.js', 'Plotly.js']
       },
       {
         name: 'Database',
