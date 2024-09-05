@@ -108,8 +108,14 @@
                     class="lg:col-span-full hover:bg-opacity-80 bg-[#d5d5d5] bg-opacity-60 rounded-lg border-1 p-4 shadow-md text-center"
                   >
                     <div class="font-bold text-[1.2rem]">Technology Stack</div>
-                    <div v-for="mainHighligth in stackFlow.mainHighligths">
-                      <span>{{ mainHighligth }}</span>
+                    <div class="flex flex-wrap gap-3 py-2 w-full">
+                      <div v-for="mainHighligth in stackFlow.mainHighligths">
+                        <div
+                          :class="`hover:bg-opacity-50 bg-[#575757] bg-opacity-30 px-2 py-1 rounded-lg text-white whitespace-nowrap`"
+                        >
+                          {{ mainHighligth }}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
