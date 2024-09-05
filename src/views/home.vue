@@ -3,19 +3,19 @@
     <div class="">
       <img class="lg:col-sapn-1 rounded-xl" :src="mySelfHere.photo1" />
     </div>
-    <div class="h-sceen xl:col-span-3 px-[3rem]">
+    <div class="text-center h-sceen xl:col-span-3 px-[3rem]">
       <div
-        class="lg:px-[10rem] text-center text-[8rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        class="lg:px-[10rem] text-[7.4rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
         Felix Page
       </div>
       <div
-        class="lg:px-[10rem] text-center text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        class="lg:px-[10rem] text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
         Welcome
       </div>
       <div
-        class="lg:px-[10rem] text-center text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        class="lg:px-[10rem] text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
         I'm in there
       </div>
