@@ -76,7 +76,7 @@ const mySelf = ref({
       {
         name: 'Programming Languages',
         colorHighlight: 'd4e9ff',
-        list: ['Java', 'Javascript', 'Typescript', 'CSS', 'HTML', 'Node.js', 'JSON']
+        list: ['Java', 'Javascript', 'Typescript', 'CSS', 'HTML', 'Node.js', 'JSON', 'C++']
       },
       {
         name: 'Backend Framework',
