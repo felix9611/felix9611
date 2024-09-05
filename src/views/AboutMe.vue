@@ -14,14 +14,14 @@
       </div>
     </div>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-2">
-      <div class="order-2 sm:py-[2rem] m:order-2 sm:order-2 md:order-1 lg:order-1 px-[3rem]">
+      <!--<div class="order-2 sm:py-[2rem] m:order-2 sm:order-2 md:order-1 lg:order-1 px-[3rem]">
         <img class="lg:col-sapn-1 rounded-lg scale-100" :src="mySelf.photo" />
         <div class="text-white text-center text-[0.8rem] py-2">
           {{ mySelf.photoInfo }}
         </div>
-      </div>
+      </div>-->
       <div
-        class="sm:order-1 lg:order-2 md:col-sapn-1 lg:col-sapn-2 xl:col-sapn-3 px-10 w-full grid grid-cols-1 lg:w-full"
+        class="sm:order-1 lg:order-full md:col-sapn-full lg:col-sapn-full xl:col-sapn-full px-10 w-full grid grid-cols-1 lg:w-full"
       >
         <div
           class="whitespace-nowrap text-[2rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_rgb(99_102_241_/_0.8)]"
