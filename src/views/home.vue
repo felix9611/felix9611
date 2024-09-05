@@ -3,7 +3,7 @@
     <div class="">
       <img class="lg:col-sapn-1 rounded-xl" :src="mySelfHere.photo1" />
     </div>
-    <div class="h-sceen xl:col-span-3">
+    <div class="h-sceen xl:col-span-3 px-[3rem]">
       <div
         class="lg:px-[10rem] text-center text-[8rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
