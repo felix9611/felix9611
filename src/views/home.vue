@@ -5,19 +5,19 @@
     </div>
     <div class="text-center h-sceen xl:col-span-3 px-[3rem]">
       <div
-        class="lg:px-[10rem] text-[7.4rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        class="lg:px-[10rem] text-[3rem] lg:text-[7.4rem] xl:text-[7.4rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
         Felix Page
       </div>
       <div
-        class="lg:px-[10rem] text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        class="lg:px-[10rem] text-[3rem] lg:text-[5rem] xL:text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
         Welcome
       </div>
       <div
-        class="lg:px-[10rem] text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        class="lg:px-[10rem] text-[3rem] lg:text-[7.4rem] xl:text-[7.4rem] text-[5rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
-        I'm in there
+        I'm there
       </div>
     </div>
     <div class="xl:col-span-1">
