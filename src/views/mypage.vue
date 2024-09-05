@@ -1,6 +1,5 @@
 <template>
-  <div class="w-screen h-full bg-gradient-to-r from-cyan-500 to-blue-500 py-4">
-    <div class="text-center text-white p-3 text-[3rem] font-bold">Here is Felix's Page</div>
+  <div class="">
     <div class="lg:px-[10rem] px-[3rem] md:px-[3rem] grid lg:grid-cols-1 gap-6">
       <div class="hover:bg-opacity-45 bg-white bg-opacity-25 rounded-xl shadow-lg p-3">
         <div class="text-center text-[1.2rem] text[#676767]">
@@ -282,7 +281,6 @@ export default defineComponent({
       window.open(url, '_blank')
     },
     opernDialg(imgPath: string) {
-      console.log(imgPath)
       this.openDialog = true
     }
   },

@@ -1,12 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import mypage from '../views/mypage.vue'
+import AboutMe from '../views/AboutMe.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'About Me',
+      component: AboutMe
+    },
+    {
+      path: '/github-projects',
+      name: 'Github Projects',
       component: mypage
     }
     /* {
