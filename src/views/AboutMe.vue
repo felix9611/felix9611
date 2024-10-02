@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="px-[3rem]">
+    <div class="px-[3rem] lg:px-[10rem]">
       <div class="hover:bg-opacity-35 bg-white bg-opacity-10 rounded-xl shadow-lg">
         <div class="text-center text-[1.1rem] py-2 px-[3rem] lg:px-[10rem] text-white">
           <VueWriter :array="[mySelf.detailOfMe]" :typeSpeed="70" />
@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-2">
+    <div class="px-[3rem] lg:px-[8rem] grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-2">
       <!--<div class="order-2 sm:py-[2rem] m:order-2 sm:order-2 md:order-1 lg:order-1 px-[3rem]">
         <img class="lg:col-sapn-1 rounded-lg scale-100" :src="mySelf.photo" />
         <div class="text-white text-center text-[0.8rem] py-2">
