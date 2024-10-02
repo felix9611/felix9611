@@ -84,7 +84,7 @@
             <div class="py-1 text-center text-[1.5rem]">Example Screen</div>
             <div class="grid lg:grid-cols-2 gap-3">
               <div v-for="image in project.images">
-                <div @click="opernDialg(image)">
+                <div>
                   <img :src="image" class="rounded-md w-[100%]" />
                 </div>
               </div>
