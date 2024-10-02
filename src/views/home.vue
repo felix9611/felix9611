@@ -29,9 +29,8 @@
     </div>
   </div>
 </template>
-<script lang="ts">
-import { ref, onMounted, createApp, defineComponent } from 'vue'
-import VueWriter from 'vue-writer'
+<script setup lang="ts">
+import { ref } from 'vue'
 
 const mySelfHere = ref({
   photo1: '/felix9611/toronto-sakura.jpg',
@@ -42,17 +41,5 @@ const footerData = ref({
   name: 'Felix Mak',
   email: 'felix9611.ca@gmail.com',
   year: new Date().getFullYear()
-})
-
-export default defineComponent({
-  components: {
-    VueWriter
-  },
-  setup() {
-    return {
-      mySelfHere,
-      footerData
-    }
-  }
 })
 </script>
