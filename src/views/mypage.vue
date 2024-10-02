@@ -4,9 +4,7 @@
       <div
         class="lg:px-[10rem] text-center text-[1rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
-        My journey never stops. I keep moving forward and embracing new milestones. Life doesn’t
-        have fixed answers—we should never stop searching for our own. Without trying, we won't
-        discover new directions.
+        {{ textOne }}
       </div>
 
       <div
@@ -68,11 +66,18 @@
               <div class="text-left text-[1.8rem] font-bold col-span-9">
                 {{ project.name }}
               </div>
-              <div class="flex justify-center items-center">
+              <div v-if="project.url" class="flex justify-center items-center">
                 <img
                   @click="clickToGithub(project.url)"
                   class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
                   src="/github.png"
+                />
+              </div>
+              <div v-if="project.otherUrl" class="flex justify-center items-center">
+                <img
+                  @click="clickToGithub(project.otherUrl)"
+                  class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
+                  src="/world-wide-web.png"
                 />
               </div>
             </div>
@@ -89,7 +94,7 @@
               <div v-for="descripction in project.descripction">・{{ descripction }}</div>
             </div>
             <div class="py-1 text-center text-[1.5rem]">Stack Flow</div>
-            <div class="grid lg:grid-cols-2 gap-3">
+            <div :class="`grid lg:grid-cols-${project.stackFlows.length > 1 ? '2' : '1'} gap-3`">
               <div v-for="stackFlow in project.stackFlows">
                 <div
                   class="hover:bg-opacity-50 bg-white bg-opacity-20 rounded-lg shadow-md p-2 grid lg:grid-cols-2 gap-3 h-full"
@@ -132,10 +137,8 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script setup lang="ts">
 import { ref, onMounted, createApp, defineComponent } from 'vue'
-
-const openDialog = ref(false)
 
 const footerData = ref({
   name: 'Felix Mak',
@@ -162,16 +165,17 @@ const githubProjects = ref([
       {
         name: 'Frontend',
         descripctions: [
-          'Develop the frontend user interface to work seamlessly with in-house use solution, for example myself to use',
+          'Develop and design the frontend user interface to work seamlessly with in-house use solution, for example myself to use',
           'Manage fixed assets, including status tracking, information recording, equipment purchase records, write-offs, and maintenance, within facility settings.',
-          'Provide reporting, exporting, monitoring, and tracking capabilities for the status of fixed assets.'
+          'Provide reporting, exporting, monitoring, and tracking capabilities for the status of fixed assets.',
+          'Using Tailwind CSS for UI design, and can support multiple devices with PC & Moblie'
         ],
         mainHighligths: ['Vue.js v2', 'Tailwind CSS', 'Chart.js', 'jspdf', 'xlsx(Node.js)', 'JWT']
       },
       {
         name: 'Backend',
         descripctions: [
-          'Develop backend logic for database management and create queries to generate user-friendly datasets.',
+          'Develop and design backend logic for database management and create queries to generate user-friendly datasets.',
           'Implement permission levels to control user access rights and manage the status of fixed assets.',
           'Use JWT tokens for user authentication and authorization, ensuring security and protection of fixed assets data.'
         ],
@@ -197,53 +201,75 @@ const githubProjects = ref([
       {
         name: 'Frontend',
         descripctions: [
-          'Develop the frontend user interface to work seamlessly with POS solution',
+          'Develop and design the frontend user interface to work seamlessly with POS solution',
           'Manage products, inventories, and purchase orders across various branch locations more effectively.',
-          'Provide reporting, exporting, monitoring, and tracking capabilities for the status of purchase orders and inventory'
+          'Provide reporting, exporting, monitoring, and tracking capabilities for the status of purchase orders and inventory',
+          'Using Tailwind CSS for UI design, and can support multiple devices with PC & Moblie'
         ],
         mainHighligths: ['Vue.js v2', 'Tailwind CSS', 'Chart.js', 'jspdf', 'xlsx(Node.js)', 'JWT']
       },
       {
         name: 'Backend',
         descripctions: [
-          'Develop backend logic for database management and create queries to generate user-friendly datasets.',
+          'Develop and design backend logic for database management and create queries to generate user-friendly datasets.',
           'Implement permission levels to control user access rights for operating POS system',
           'Use JWT tokens for user authentication and authorization, ensuring security and protection of products, inventories, and purchase orders data.'
         ],
         mainHighligths: ['Java', 'Spring boot v3.2', 'MySQL', 'JWT', 'xlsx(Node.js)', 'captcha']
       }
     ]
-  }
-])
-
-const workExperiences = ref([
+  },
   {
-    jobTilte: 'Mobile Developer',
-    company: 'Certizen Limited',
-    location: '',
-    workRange: ['2020.11', '2021.04'],
-    jobHighlight: [],
-    skills: []
+    name: 'Toronto HeartCon Official Page',
+    otherUrl: 'https://torontoheartcon.github.io/torontoheartcon/',
+    descripction: [
+      'Develop and design the official page for the cosplay event in Toronto by as the Co-founder & Website Manager'
+    ],
+    images: [
+      '/felix9611/heartcon-1.png',
+      '/felix9611/heartcon-2.png',
+      '/felix9611/heartcon-3.png',
+      '/felix9611/heartcon-4.png'
+    ],
+    stackFlows: [
+      {
+        name: 'Frontend',
+        descripctions: [
+          'Using serverless database system for rapid deployment and de-emphasize the website',
+          'Using Tailwind CSS for UI design, and can support multiple devices with PC & Moblie'
+        ],
+        mainHighligths: ['Vue.js v3', 'Tailwind CSS', 'Vite', 'Serverless Database']
+      }
+    ]
   }
 ])
 
-export default defineComponent({
-  setup() {
-    return {
-      workExperiences,
-      footerData,
-      githubProjects,
-      openDialog
-    }
-  },
-  methods: {
-    clickToGithub(url: string) {
-      window.open(url, '_blank')
-    },
-    opernDialg(imgPath: string) {
-      this.openDialog = true
-    }
-  },
-  actions: {}
-})
+const textOne =
+  ref(`My journey never stops. I keep moving forward and embracing new milestones. Life doesn’t
+        have fixed answers—we should never stop searching for our own. Without trying, we won't
+        discover new directions.`)
+
+function clickToGithub(url: string) {
+  window.open(url, '_blank')
+}
 </script>
+<style>
+.typingEffect {
+  width: 0;
+  overflow: hidden; /* Ensure the text is not visible until the typewriter effect*/
+  border-right: 2px solid white; /* The cursor*/
+  font-size: 16px;
+  white-space: nowrap; /* Keeps the text on a single line */
+  animation: typing 10s steps(30) forwards;
+}
+
+/* The typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+</style>

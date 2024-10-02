@@ -31,6 +31,7 @@
 </template>
 <script lang="ts">
 import { ref, onMounted, createApp, defineComponent } from 'vue'
+import VueWriter from 'vue-writer'
 
 const mySelfHere = ref({
   photo1: '/felix9611/toronto-sakura.jpg',
@@ -44,6 +45,9 @@ const footerData = ref({
 })
 
 export default defineComponent({
+  components: {
+    VueWriter
+  },
   setup() {
     return {
       mySelfHere,

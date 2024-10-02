@@ -28,11 +28,11 @@ const onClick = () => {
           About Me
         </div>
       </button>
-      <button @click="$router.push('/github-projects')">
+      <button @click="$router.push('/my-projects')">
         <div
           class="text-[1.2rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
         >
-          Github Projects
+          My Projects
         </div>
       </button>
     </div>

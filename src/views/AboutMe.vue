@@ -3,6 +3,7 @@
     <div class="px-[3rem]">
       <div class="hover:bg-opacity-35 bg-white bg-opacity-10 rounded-xl shadow-lg">
         <div class="text-center text-[1.1rem] py-2 px-[3rem] lg:px-[10rem] text-white">
+          <VueWriter :array="[mySelf.detailOfMe]" :typeSpeed="70" />
           {{ mySelf.detailOfMe }}
         </div>
         <div class="text-center text-[1.1rem] py-2 px-[3rem] lg:px-[10rem] text-white">

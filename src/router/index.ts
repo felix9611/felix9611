@@ -17,8 +17,8 @@ const router = createRouter({
       component: AboutMe
     },
     {
-      path: '/github-projects',
-      name: 'Github Projects',
+      path: '/my-projects',
+      name: 'My Projects',
       component: Mypage
     }
     /* {
