@@ -56,7 +56,7 @@
       <div
         class="text-center text-[3rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
-        My Project in Github
+        My Project
       </div>
 
       <div class="grid lg:grid-cols-2 gap-3 h-full">
