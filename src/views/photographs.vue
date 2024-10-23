@@ -12,8 +12,12 @@
     >
       <template v-for="photo in mySelf.photos" key="photo">
         <div class="grid grid-cols-4 gap-3 text-center text-[1.25rem]">
-          <div class="col-span-full">
-            <img :src="photo.path" />
+          <div class="col-span-full relative w-full overflow-hidden bg-cover bg-no-repeat">
+            <img
+              :src="photo.path"
+              class="w-full transition duration-300 ease-in-out hover:scale-110"
+              alt="Louvre"
+            />
           </div>
           <div class="col-span-full text-center text-[1.5rem] text-white font-black">
             {{ photo.name }}
