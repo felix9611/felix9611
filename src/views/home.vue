@@ -1,7 +1,11 @@
 <template>
   <div class="grid grid-cols-1 xl:grid-cols-5 gap-2 px-[5rem] lg:px-[4rem] py-[4rem]">
-    <div class="">
-      <img class="lg:col-sapn-1 rounded-xl" :src="mySelfHere.photo1" />
+    <div class="xl:col-span-1 relative w-full overflow-hidden bg-cover bg-no-repeat">
+      <img
+        :src="mySelfHere.photo1"
+        class="w-full transition duration-300 ease-in-out hover:scale-110 lg:col-sapn-1 rounded-xl hover:rounded-xl"
+        alt="Louvre"
+      />
     </div>
     <div class="text-center h-sceen xl:col-span-3 px-[3rem]">
       <div
@@ -20,8 +24,12 @@
         I'm there
       </div>
     </div>
-    <div class="xl:col-span-1">
-      <img class="lg:col-sapn-1 rounded-xl" :src="mySelfHere.photo2" />
+    <div class="xl:col-span-1 relative w-full overflow-hidden bg-cover bg-no-repeat">
+      <img
+        :src="mySelfHere.photo2"
+        class="w-full transition duration-300 ease-in-out hover:scale-110 lg:col-sapn-1 rounded-xl hover:rounded-xl"
+        alt="Louvre"
+      />
     </div>
   </div>
 </template>
