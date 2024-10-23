@@ -23,10 +23,6 @@
     <div class="xl:col-span-1">
       <img class="lg:col-sapn-1 rounded-xl" :src="mySelfHere.photo2" />
     </div>
-    <div class="xl:col-span-full text-center text-white py-[2rem] text-[1.1rem]">
-      <div>Copy Rights by {{ footerData.name }} @ {{ footerData.year }}</div>
-      <div>{{ footerData.email }}</div>
-    </div>
   </div>
 </template>
 <script setup lang="ts">

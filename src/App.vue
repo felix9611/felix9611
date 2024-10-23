@@ -2,13 +2,15 @@
 import { RouterLink, RouterView } from 'vue-router'
 
 import { useGlobalStore } from '@/stores/test'
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
 
 const globalStore = useGlobalStore()
 
-const onClick = () => {
-  globalStore.routeKey++
-}
+const footerData = ref({
+  name: 'Felix Mak',
+  email: 'felix9611.ca@gmail.com',
+  year: new Date().getFullYear()
+})
 </script>
 
 <template>
@@ -28,6 +30,13 @@ const onClick = () => {
           About Me
         </div>
       </button>
+      <button @click="$router.push('/my-photos')">
+        <div
+          class="text-[1.2rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        >
+          Photographs
+        </div>
+      </button>
       <button @click="$router.push('/my-projects')">
         <div
           class="text-[1.2rem] text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
@@ -43,6 +52,10 @@ const onClick = () => {
     </div>
     <div>
       <router-view />
+    </div>
+    <div class="text-center text-white font-600 text-[1.1rem]">
+      <div>Copy Rights by {{ footerData.name }} @ {{ footerData.year }}</div>
+      <div>{{ footerData.email }}</div>
     </div>
   </div>
 </template>

@@ -52,10 +52,6 @@
         </div>
       </div>
     </div>
-    <div class="text-center text-white font-600 text-[1.1rem]">
-      <div>Copy Rights by {{ footerData.name }} @ {{ footerData.year }}</div>
-      <div>{{ footerData.email }}</div>
-    </div>
   </div>
 </template>
 <script lang="ts">
