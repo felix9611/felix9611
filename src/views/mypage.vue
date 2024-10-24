@@ -63,16 +63,32 @@
         <div v-for="project in githubProjects">
           <div class="hover:bg-opacity-45 bg-white bg-opacity-25 rounded-2xl shadow-lg p-3 h-full">
             <div class="grid grid-cols-10">
-              <div class="text-left text-[1.8rem] font-bold col-span-9">
+              <div class="text-left text-[1.8rem] font-bold col-span-8">
                 {{ project.name }}
               </div>
-              <div v-if="project.url" class="flex justify-center items-center">
+              <button
+                v-tooltip="project.urls[0].name"
+                v-if="project.urls"
+                class="flex justify-center items-center"
+              >
                 <img
-                  @click="clickToGithub(project.url)"
+                  @click="clickToGithub(project.urls[0].url)"
                   class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
                   src="/github.png"
                 />
-              </div>
+              </button>
+              <button
+                v-tooltip="project.urls[1].name"
+                v-if="project.urls"
+                class="flex justify-center items-center"
+              >
+                <img
+                  @click="clickToGithub(project.urls[1].url)"
+                  class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
+                  src="/github.png"
+                />
+              </button>
+
               <div v-if="project.otherUrl" class="flex justify-center items-center">
                 <img
                   @click="clickToGithub(project.otherUrl)"
@@ -145,7 +161,16 @@ const footerData = ref({
 const githubProjects = ref([
   {
     name: 'Fixed Assets Management System',
-    url: 'https://github.com/felix9611/springboot-fixedasset-vue-2',
+    urls: [
+      {
+        name: 'MYSQL Version',
+        url: 'https://github.com/felix9611/springboot-fixedasset-vue-2'
+      },
+      {
+        name: 'PostgreSQL Version',
+        url: 'https://github.com/felix9611/springboot-fixedasset-vue-2-pgsql'
+      }
+    ],
     descripction: [
       'Inclubes frontend and backend for Fixed Assets Management System',
       'Management purchase expenditure record ,maintenance and write-off records in fixed assets at facilities',
@@ -166,7 +191,15 @@ const githubProjects = ref([
           'Provide reporting, exporting, monitoring, and tracking capabilities for the status of fixed assets.',
           'Using Tailwind CSS for UI design, and can support multiple devices with PC & Moblie'
         ],
-        mainHighligths: ['Vue.js v2', 'Tailwind CSS', 'Chart.js', 'jspdf', 'xlsx(Node.js)', 'JWT']
+        mainHighligths: [
+          'Vue.js v2',
+          'Tailwind CSS',
+          'Chart.js',
+          'jspdf',
+          'xlsx(Node.js)',
+          'JWT',
+          'Open API'
+        ]
       },
       {
         name: 'Backend',
@@ -175,13 +208,30 @@ const githubProjects = ref([
           'Implement permission levels to control user access rights and manage the status of fixed assets.',
           'Use JWT tokens for user authentication and authorization, ensuring security and protection of fixed assets data.'
         ],
-        mainHighligths: ['Java', 'Spring boot v3.2', 'MySQL', 'JWT', 'xlsx(Node.js)', 'captcha']
+        mainHighligths: [
+          'Java',
+          'Spring boot v3.2',
+          'MySQL',
+          'PostgreSQL',
+          'JWT',
+          'xlsx(Node.js)',
+          'captcha'
+        ]
       }
     ]
   },
   {
     name: 'POS System',
-    url: 'https://github.com/felix9611/springboot-pos-vue',
+    urls: [
+      {
+        name: 'MYSQL Version',
+        url: 'https://github.com/felix9611/springboot-pos-vue'
+      },
+      {
+        name: 'PostgreSQL Version',
+        url: 'https://github.com/felix9611/springboot-pos-vue-pgsql'
+      }
+    ],
     descripction: [
       'Inclubes frontend and backend for POS System',
       'Management purchase orders record ,transaction history, inventory and product records in POS at bussiness',
@@ -211,7 +261,16 @@ const githubProjects = ref([
           'Implement permission levels to control user access rights for operating POS system',
           'Use JWT tokens for user authentication and authorization, ensuring security and protection of products, inventories, and purchase orders data.'
         ],
-        mainHighligths: ['Java', 'Spring boot v3.2', 'MySQL', 'JWT', 'xlsx(Node.js)', 'captcha']
+        mainHighligths: [
+          'Java',
+          'Spring boot v3.2',
+          'MySQL',
+          'PostgreSQL',
+          'JWT',
+          'xlsx(Node.js)',
+          'captcha',
+          'Open API'
+        ]
       }
     ]
   },
