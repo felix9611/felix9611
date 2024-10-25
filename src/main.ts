@@ -8,7 +8,7 @@ import router from './router'
 
 import './index.css'
 
-import tooltip from '@/tool/tooltip/tooltip.js'
+import tooltip from '@/tool/tooltip/index'
 import '@/tool/tooltip/tooltip.css'
 
 const refreshPage = () => {
