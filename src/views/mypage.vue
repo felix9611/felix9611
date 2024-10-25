@@ -66,7 +66,7 @@
               <div class="text-left text-[1.8rem] font-bold col-span-8">
                 {{ project.name }}
               </div>
-              <button
+              <!-- <button
                 v-tooltip="project.urls[0].name"
                 v-if="project.urls"
                 class="flex justify-center items-center"
@@ -76,18 +76,27 @@
                   class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
                   src="/github.png"
                 />
-              </button>
-              <button
-                v-tooltip="project.urls[1].name"
-                v-if="project.urls"
-                class="flex justify-center items-center"
-              >
-                <img
-                  @click="clickToGithub(project.urls[1].url)"
-                  class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
-                  src="/github.png"
-                />
-              </button>
+              </button>-->
+              <VTooltip v-if="project.urls">
+                <button class="flex justify-center items-center">
+                  <img
+                    @click="clickToGithub(project.urls[0].url)"
+                    class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
+                    src="/github.png"
+                  />
+                </button>
+                <template #popper> {{ project.urls[0]?.name }} </template>
+              </VTooltip>
+              <VTooltip v-if="project.urls">
+                <button class="flex justify-center items-center">
+                  <img
+                    @click="clickToGithub(project.urls[1].url)"
+                    class="w-[70%] mt-0 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100"
+                    src="/github.png"
+                  />
+                </button>
+                <template #popper> {{ project.urls[1]?.name }} </template>
+              </VTooltip>
 
               <div v-if="project.otherUrl" class="flex justify-center items-center">
                 <img
@@ -151,6 +160,7 @@
 </template>
 <script setup lang="ts">
 import { ref, onMounted, createApp, defineComponent } from 'vue'
+import { Dropdown, Tooltip, Menu, vTooltip } from 'floating-vue'
 
 const footerData = ref({
   name: 'Felix Mak',
