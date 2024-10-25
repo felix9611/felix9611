@@ -63,7 +63,9 @@
         <div v-for="project in githubProjects">
           <div class="hover:bg-opacity-45 bg-white bg-opacity-25 rounded-2xl shadow-lg p-3 h-full">
             <div class="grid grid-cols-10">
-              <div class="text-left text-[1.8rem] font-bold col-span-8">
+              <div
+                :class="`text-left text-[1.8rem] font-bold col-span-${project.urls ? '8' : '9'}`"
+              >
                 {{ project.name }}
               </div>
               <!-- <button
