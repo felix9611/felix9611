@@ -59,7 +59,7 @@
         My Project
       </div>
 
-      <div class="grid grid-cols-1 gap-3 h-full">
+      <div class="grid lg:grid-cols-2 gap-3 h-full">
         <div v-for="project in githubProjects">
           <div class="hover:bg-opacity-45 bg-white bg-opacity-25 rounded-2xl shadow-lg p-3 h-full">
             <div class="grid grid-cols-10">
