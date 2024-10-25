@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 xl:grid-cols-5 gap-2 px-[5rem] lg:px-[4rem] py-[4rem]">
+  <div class="grid grid-cols-1 xl:grid-cols-5 gap-2 px-[5rem] lg:px-[4rem] py-[4.25rem]">
     <div class="xl:col-span-1 relative w-full overflow-hidden bg-cover bg-no-repeat">
       <img
         :src="mySelfHere.photo1"
