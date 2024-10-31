@@ -45,7 +45,7 @@ const mySelf = ref({
   detailOfMe: `Hello I'm Felix, a software engineer with strong for full-stack development. Studied in Taiwan's University and have some work experience in Hong Kong, bring my skill and my smart in the software industry. and started my new life in Toronto, Ontario , Canada from 2023. I'm happy bring my ability and my skill to Canada continue my career there.I Always let myself to face on different challenges, never stop in only one place anf given up, continue to go another miles, let my life more full the poert.`,
   photos: [
     {
-      path: '/felix9611/photos-1.jpg',
+      path: '/photos-1.jpg',
       name: 'Northern Lights in Ontario',
       shutter: '10s',
       aperture: 'F3.5',
@@ -53,7 +53,7 @@ const mySelf = ref({
       len: '10mm'
     },
     {
-      path: '/felix9611/photos-2.jpg',
+      path: '/photos-2.jpg',
       name: 'Northern Lights in Ontario',
       shutter: '13s',
       aperture: 'F3.5',
@@ -61,7 +61,7 @@ const mySelf = ref({
       len: '10mm'
     },
     {
-      path: '/felix9611/photos-3.jpg',
+      path: '/photos-3.jpg',
       name: 'Train arrived station in Tokyo, Japan',
       shutter: '1/400',
       aperture: 'F5.6',
@@ -69,7 +69,7 @@ const mySelf = ref({
       len: '70mm'
     },
     {
-      path: '/felix9611/photos-4.jpg',
+      path: '/photos-4.jpg',
       name: 'Spring of Yokohama, Japan',
       shutter: '1/160',
       aperture: 'F7.1',
@@ -77,7 +77,7 @@ const mySelf = ref({
       len: '27mm'
     },
     {
-      path: '/felix9611/photos-5.jpg',
+      path: '/photos-5.jpg',
       name: 'Old Bus in the modern of Hong Kong',
       shutter: '1/160',
       aperture: 'F4.5',
@@ -85,7 +85,7 @@ const mySelf = ref({
       len: '17mm'
     },
     {
-      path: '/felix9611/photos-6.jpg',
+      path: '/photos-6.jpg',
       name: 'The woman crossplay with sunset',
       shutter: '1/160',
       aperture: 'F4.5',

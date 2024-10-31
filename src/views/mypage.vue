@@ -184,14 +184,10 @@ const githubProjects = ref([
     descripction: [
       'Inclubes frontend and backend for Fixed Assets Management System',
       'Management purchase expenditure record ,maintenance and write-off records in fixed assets at facilities',
-      'Cloud-based web systems offer ease of use with no installation required, significantly reducing costs.'
+      'Cloud-based web systems offer ease of use with no installation required, significantly reducing costs.',
+      'Available a limit testing in online, please check in githb repository for more details'
     ],
-    images: [
-      '/felix9611/fixedasset-1.png',
-      '/felix9611/fixedasset-2.png',
-      '/felix9611/fixedasset-3.png',
-      '/felix9611/fixedasset-4.png'
-    ],
+    images: ['/fixedasset-1.png', '/fixedasset-2.png', '/fixedasset-3.png', '/fixedasset-4.png'],
     stackFlows: [
       {
         name: 'Frontend',
@@ -245,14 +241,10 @@ const githubProjects = ref([
     descripction: [
       'Inclubes frontend and backend for POS System',
       'Management purchase orders record ,transaction history, inventory and product records in POS at bussiness',
-      'Cloud-based web systems offer ease of use with no installation required, significantly reducing costs.'
+      'Cloud-based web systems offer ease of use with no installation required, significantly reducing costs.',
+      'Available a limit testing in online, please check in githb repository for more details'
     ],
-    images: [
-      '/felix9611/pos-1.png',
-      '/felix9611/pos-2.png',
-      '/felix9611/pos-3.png',
-      '/felix9611/pos-4.png'
-    ],
+    images: ['/pos-1.png', '/pos-2.png', '/pos-3.png', '/pos-4.png'],
     stackFlows: [
       {
         name: 'Frontend',
@@ -290,12 +282,7 @@ const githubProjects = ref([
     descripction: [
       'Develop and design the official page for the cosplay event in Toronto by as the Co-founder & Website Manager'
     ],
-    images: [
-      '/felix9611/heartcon-1.png',
-      '/felix9611/heartcon-2.png',
-      '/felix9611/heartcon-3.png',
-      '/felix9611/heartcon-4.png'
-    ],
+    images: ['/heartcon-1.png', '/heartcon-2.png', '/heartcon-3.png', '/heartcon-4.png'],
     stackFlows: [
       {
         name: 'Frontend',

@@ -37,8 +37,8 @@
 import { ref } from 'vue'
 
 const mySelfHere = ref({
-  photo1: '/felix9611/toronto-sakura.jpg',
-  photo2: '/felix9611/maruzensky-2.jpg'
+  photo1: '/toronto-sakura.jpg',
+  photo2: '/maruzensky-2.jpg'
 })
 
 const footerData = ref({

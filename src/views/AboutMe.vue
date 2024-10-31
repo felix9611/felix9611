@@ -64,7 +64,7 @@ const mySelf = ref({
   hoobbiesOfMe: `In the off my coding time, I will doing my Anime Cosplay and photoshoot for meeting my friends, continue my communication.`,
   myName: 'Felix Mak',
   jobTitle: 'Software Engineer (Full-stack)',
-  photo: '/felix9611/maruzensky-2.jpg',
+  photo: '/maruzensky-2.jpg',
   photoInfo: `The story about my cosplayed anime characters, called Maruzensky and from Japanese Anime called Uma Musume Pretty Derby said race story, they are according to real racing horse history and story. Maruzensky's father called Nijinsky is born in Ontario, Canada and race in UK & Ireland, honours the Canadian Horse Racing Hall of Fame in 1976.
 `,
   skills: {
