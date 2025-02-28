@@ -11,12 +11,15 @@ const footerData = ref({
   email: 'felix9611.ca@gmail.com',
   year: new Date().getFullYear()
 })
+const lickToOutside = (url: string) => {
+  window.open(url, '_blank')
+}
 </script>
 
 <template>
   <div class="w-screen h-full bg-gradient-to-r from-[#330831] to-[#134b75] py-4 text-white">
     <div
-      class="lg:px-[10rem] xl:px-[20rem] text-[1.4rem] flex gap-5 items-center justify-center grid grid-cols-1 lg:grid-cols-4 gap-3 py-5"
+      class="lg:px-[10rem] xl:px-[20rem] text-[1.4rem] flex gap-5 items-center justify-center grid grid-cols-1 lg:grid-cols-5 gap-3 py-5"
     >
       <button @click="$router.push('/')">
         <div
@@ -44,6 +47,13 @@ const footerData = ref({
           class="text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
         >
           My Projects
+        </div>
+      </button>
+      <button @click="lickToOutside('https://felix9611-selfweb-angular.web.app/')">
+        <div
+          class="text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        >
+          Angular Page
         </div>
       </button>
     </div>

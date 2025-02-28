@@ -83,12 +83,12 @@ const mySelf = ref({
       {
         name: 'Frontend Framework',
         colorHighlight: 'd4e9ff',
-        list: ['Vue.js', 'Tailwind CSS', 'Vite', 'Chart.js', 'Plotly.js']
+        list: ['Vue.js', 'Tailwind CSS', 'Vite', 'Chart.js', 'Plotly.js', 'Angular']
       },
       {
         name: 'Database',
         colorHighlight: 'd4e9ff',
-        list: ['MySQL', 'MSSQL']
+        list: ['MySQL', 'MSSQL', 'PostgreSQL']
       },
       {
         name: 'Development Tools',
