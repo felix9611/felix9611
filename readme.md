@@ -13,7 +13,7 @@ Photographer<h2>
 - [Fixed Asset Management System based on Golang Gin framework and Angular frontend](https://github.com/felix9611/golang-fixedasset-angular-mongo): Tracking all asset of seld & organizes with low usage
 - [Fixed Asset Management System based on Node.js Nest.js framework and Angular frontend](https://github.com/felix9611/nest-fixedasset-angular-mongo): Tracking all asset of seld & organizes with quickly development
 - [POS System based on Node.js Nest.js framework and Angular frontend](https://github.com/felix9611/nest-pos-angular-mongo): Tracking & manage purchase orders and transaction history with quickly development
-<p align="center"><h1>My nut</h1></p>
+<p align="center"><h1>My Philosophy</h1></p>
 <p align="center" style="font-size: 30px;">✨ Designed and engineered from scratch with custom architecture, dirty-code free, and zero boilerplate code copying.</p>
 <p align=center>
 <img src=https://media.tenor.com/CHjRPZzF8nMAAAAM/gold-gold-city.gif width=250 alt="Gold City" />
