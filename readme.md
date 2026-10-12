@@ -1,7 +1,7 @@
 <div align="center"><h1>Felix - Uma Musume Lover🐴🐎</h1></div>
 
-<div align="center"  style="font-size: 24px;padding-top: 30px;">Full Stack Software Engineer X Cosplayer X 
-Photographer</div>
+<h2 align="center"  >Full Stack Software Engineer X Cosplayer X 
+Photographer<h2>
 
 <p align=center style="padding-top: 50px;">
   <a href="https://skillicons.dev">
