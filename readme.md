@@ -8,3 +8,9 @@
     <img src="https://skillicons.dev/icons?i=javascript,typescript,nodejs,flutter,java,go,angular,vite,vue,mongodb,mysql,postgresql" alt="javascript,typescript,nodejs,flutter,java,go,angular,vite,vue,mongodb,mysql,postgresql" />
   </a>
 </p>
+
+
+## Stuff I made
+- [Fixed Asset Management System based on Golang Gin framework and Angular frontend](https://github.com/felix9611/golang-fixedasset-angular-mongo): Tracking all asset of seld & organizes with low usage
+- [Fixed Asset Management System based on Node.js Nest.js framework and Angular frontend](https://github.com/felix9611/nest-fixedasset-angular-mongo): Tracking all asset of seld & organizes with quickly development
+- [POS System based on Node.js Nest.js framework and Angular frontend](https://github.com/felix9611/nest-pos-angular-mongo): Tracking & manage purchase orders and transaction history with quickly development
