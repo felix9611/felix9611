@@ -16,7 +16,7 @@ Photographer<h2>
 <p align="center"><h1>My Philosophy</h1></p>
 <p align="center" style="font-size: 30px;">✨ Designed and engineered from scratch with custom architecture, dirty-code free, and zero boilerplate code copying.</p>
 <p align=center>
-<img src=https://media.tenor.com/CHjRPZzF8nMAAAAM/gold-gold-city.gif width=250 alt="Gold City" />
-<img src=https://media.tenor.com/LCO8lohqG3AAAAAM/gold-city-gold.gif width=250 alt="Gold City"  />
+<img src=https://media.tenor.com/CHjRPZzF8nMAAAAM/gold-gold-city.gif width=250 alt="GOLD CITY" />
+<img src=https://i.pinimg.com/originals/c1/e9/71/c1e971f8f2a1bd8bd2161171e0cc5c68.gif width=250 alt="NICE NATURE"  />
 <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW5a-oSpsd_GjieQ1InaPkH5_lU2HHPeJz2LIAncGkpw&s=10 width=250 alt="MARUZENSKY" />
 </p>
