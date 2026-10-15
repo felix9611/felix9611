@@ -5,7 +5,7 @@ Photographer<h2>
 
 <p align=center style="padding-top: 50px;">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=javascript,typescript,nodejs,flutter,java,go,angular,vite,vue,mongodb,mysql,postgresql,cloudflare,ubuntu,linux" alt="avascript,typescript,nodejs,flutter,java,go,angular,vite,vue,mongodb,mysql,postgresql,cloudflare,ubuntu,linux" />
+    <img src="https://skillicons.dev/icons?i=javascript,typescript,nodejs,java,go,angular,vite,vue,mongodb,mysql,postgresql,cloudflare,ubuntu,linux,raspberrypi" alt="javascript,typescript,nodejs,java,go,angular,vite,vue,mongodb,mysql,postgresql,cloudflare,ubuntu,linux,raspberrypi" />
   </a>
 </p>
 
