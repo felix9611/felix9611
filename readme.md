@@ -14,7 +14,8 @@ Photographer<h2>
 - [Fixed Asset Management System based on Node.js Nest.js framework and Angular frontend](https://github.com/felix9611/nest-fixedasset-mongo-angular): Tracking all asset of self-owned & organizes with fast-paced development
 - [POS System based on Node.js Nest.js framework and Angular frontend](https://github.com/felix9611/nest-pos-mongo-angular): Tracking & manage purchase orders and transaction history with fast-paced development
 <p align="center"><h1>My Philosophy</h1></p>
-<p align="center" style="font-size: 30px;">✨ Designed and engineered from scratch with custom architecture, dirty-code free, and zero boilerplate code copying. All live demo running on Raspberry pi5 server.</p>
+<p align="center" style="font-size: 30px;">✨ Designed and engineered from scratch with custom architecture, dirty-code free, and zero boilerplate code copying. </p>
+<p align="center" style="font-size: 30px;">✨ All live demo running on Raspberry pi5 server.</p>
 <p align=center>
 <img src=https://media.tenor.com/CHjRPZzF8nMAAAAM/gold-gold-city.gif width=250 alt="GOLD CITY" />
 <img src=https://i.pinimg.com/originals/c1/e9/71/c1e971f8f2a1bd8bd2161171e0cc5c68.gif width=250 alt="NICE NATURE"  />
