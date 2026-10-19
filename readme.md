@@ -15,7 +15,7 @@ Photographer<h2>
 - [POS System based on Node.js Nest.js framework and Angular frontend](https://github.com/felix9611/nest-pos-mongo-angular): Tracking & manage purchase orders and transaction history with fast-paced development
 - [POS System based on Golang Gin framework and Angular frontend](https://github.com/felix9611/golang-pos-angular-mongo): Tracking & manage purchase orders and transaction history with low usage
 <p align="center"><h1>My Philosophy</h1></p>
-<p align="center" style="font-size: 30px;">✨ Designed and engineered from scratch with custom architecture, dirty-code free, and zero boilerplate code copying. </p>
+<p align="center" style="font-size: 30px;">✨ DBuilt from scratch with independently designed architecture and business logic. Not cloning or repackaging of other developers' projects. </p>
 <p align="center" style="font-size: 30px;">✨ All live demo running on self hosting Raspberry pi5 server with cloudflare for 24/7.</p>
 <p align=center>
 <img src=https://media.tenor.com/CHjRPZzF8nMAAAAM/gold-gold-city.gif width=250 alt="GOLD CITY" />
